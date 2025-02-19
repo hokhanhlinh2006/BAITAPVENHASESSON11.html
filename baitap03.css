@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.butoon{
+    width: 100%;
+    background: rgb(182, 0, 173);
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 200px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 10px;
+}
+.header{
+    width: 100%;
+    background:rgb(182, 0, 173);
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    height: 100px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+.box {
+    flex: 1;
+    min-width: 200px;
+    background: rgb(255, 0, 221); 
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    height: 100px
+    
+}
